@@ -1,0 +1,335 @@
+
+/****** HTML ELEMENTS *******/
+
+body {
+    color: white;
+    font-family: barlow-condensed, sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: bellefair;
+    font-size: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* CLASSES */
+
+.big-heading {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 10%;
+    letter-spacing: 4.72px;
+}
+
+  /* NAVBAR */
+
+.navbar-container {
+    position: relative;
+    margin-bottom: 100px;
+   
+}
+
+.nav-bar {
+    position: relative;
+    bottom: 30px;
+    float: right;
+    text-align: right;
+    width: 60%;
+    height: 50px;
+    backdrop-filter: blur(8px);
+    padding-top: 25px;
+    padding-right: 150px;
+}
+
+.line-nav-bar {
+    width: 525px;
+    z-index: 1;
+    border-top: solid 1px rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 130px;
+    top: 55px;
+}
+
+.nav-item {
+    font-size: 16px;
+    margin: 20px;
+    letter-spacing: 2.7px;
+}
+
+.nav-item a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.nav-bar-numbers {
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo {
+    position:relative;
+    top: 35px;
+    padding-left: 20px;
+}
+
+
+/* HOME PAGE */
+
+
+.main-container {
+  
+    padding-top: 150px;
+    margin-left: 40px;
+}
+
+.main-container-child-a {
+    width: 30%;
+    padding: 50px 80px;
+
+}
+
+.home-copy-one {
+   
+    font-size: 28px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+    
+}
+
+.home-copy-two {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    text-transform: uppercase;
+
+}
+
+.home-copy-three {
+    font-family: 'Barlow', sans-serif;
+    color: #D0D6F9;
+    font-size: 18;
+}
+
+.main-container-child-b {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 360%;
+    font-family: 'Bellefair', serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+}
+
+.button-text {
+   padding: 90px 0 0 48px;
+
+} 
+
+/* DESTINATION PAGE */
+
+.nav {
+    margin-left: 49%;
+}
+
+
+.destination-explainer {
+    width: 450px;
+    font-size: 18px;
+    color: #D0D6F9;
+    padding-bottom: 50px;
+}
+
+ 
+.destination-image {
+    scale: 80%;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+
+.facts-container {
+    width: 460px;
+    position: relative;
+    padding-top: 30px;
+    border-top: solid 1px #979797;
+}
+
+.facts-container-child {
+    width: 200px;
+    display: inline-block;
+    text-decoration: uppercase;
+}
+
+.fact-name {
+    font-size: 14px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+
+}
+
+.fact-figure {
+    font-size: 28px;
+    text-transform: uppercase;
+
+
+}
+
+/* CREW PAGE */
+
+.main-container-crew {
+    margin-left: 10%;
+}
+
+
+.crew-title {
+    margin-top: 150px;
+    font-size: 25px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.crew-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.image-crew {
+    position: absolute;
+    bottom: -40px;
+    right: 140px;
+    scale: 90%;
+}
+
+.dots-container {
+    position: absolute;
+    bottom: 30px;
+}
+
+.active-dot-links {
+    color: white;
+    scale: 500%;
+    text-decoration: none;
+    font-size: 80px;
+}
+
+.dot-links {
+    color: white;
+    scale: 500%;
+    text-decoration: none;
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+
+/* TECHNOLOGY */
+
+.main-container-tech {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 500px auto;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: 10%;
+
+}
+
+.buttons-side-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.number-tech-container {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border: solid white;
+    border-radius: 360px;
+
+}
+
+.active-number-tech-container {
+    font-family: bellefair;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 360px;
+
+}
+
+.number-tech {
+    font-family: bellefair;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 24%;
+    left: 43%;
+    text-decoration: none;
+}
+
+
+
+.active-number-tech {
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 24%;
+    left: 45%;
+    text-decoration: none;
+}
+
+.tech-text-container {
+    padding-top: 80px;
+    width: 500px;
+    padding-left: 20px;
+
+}
+
+.tech-text-1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #D0D6F9;
+    letter-spacing: -0.25px;
+}
+
+.tech-text-2 {
+    font-family: bellefair;
+    text-transform: uppercase;
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.tech-text-3 {
+    color: #D0D6F9;
+    font-size: 18px;
+}
+
+.image-vehicle {
+    position: absolute;
+    right: 0;
+}
